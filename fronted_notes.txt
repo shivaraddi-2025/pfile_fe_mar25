@@ -1,0 +1,53 @@
+ bootstrap js and react nodes
+ day1 monday 17-03-2025
+ 
+ steps to a new git repo:
+ 1 login to github account.
+ 2 on the right top of the window click(+) and select new repository.
+ 3 enter repository name.
+ 4 fill the description  of the repository.
+ 5 click on the green button "create repository".
+ 
+ git commands:
+
+1.$ git status
+the above command used know to know the the status of repo.
+ 
+2.$ git clone https://github.com/shivaraddi-2025/pfile_fe_mar25
+the above command rhe repo from server (remo repo) into the computer
+
+3$ git pull origin main
+this command downloads the updated repo "main" here is the default branch name.
+
+4$ git config --global user.name"shivaraddi-2025"
+
+5$ git config --global user.email"shivaraddi@gmail.com"
+
+STEPS TO CREATE PERSONAL ACCESS TOKEN(PATH)
+1.click profile iocon
+2.scroll down and click setting
+3.in the new windows scroll down and click developers setting on the left corner
+4.in the new window on the top left click tokens and then select tokens classic
+5.
+6.this pad i have created learning purpose.
+7.click expeiry and select no expeiry
+8.select the checkbox repo
+9.scroll down and click generate tokens 
+10.copy the path and mail to yourself
+
+STEPS TO SYNCH REMOTE REPO WITH THE LOCAL
+$git clone https://<pat>github.com/shivaraddi-2025/pfile_fe_mar25
+
+
+STEPS TO UPDATE THE REMOTE REPO(COPY THE FILES FROMLOCAL TO REMOTE)
+$ git add .
+in the above command the git will mark(will make list of)all the files that need to be updated in the 
+remote repo(server)
+
+git commit -m "relavent messege"
+the above commandcreates an objects that will have a copy of all the marked files(with security i.e encryption)
+
+git push origin <branch name>
+example:git push origin main
+the above command pushes the files to the branches "main"
+
